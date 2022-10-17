@@ -10,45 +10,21 @@
 		ADBF071528FCC521008AA0AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBF071428FCC521008AA0AE /* AppDelegate.swift */; };
 		ADBF071728FCC521008AA0AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBF071628FCC521008AA0AE /* SceneDelegate.swift */; };
 		ADBF071928FCC521008AA0AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBF071828FCC521008AA0AE /* ViewController.swift */; };
-		ADBF071C28FCC521008AA0AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADBF071A28FCC521008AA0AE /* Main.storyboard */; };
 		ADBF071E28FCC522008AA0AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADBF071D28FCC522008AA0AE /* Assets.xcassets */; };
 		ADBF072128FCC522008AA0AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADBF071F28FCC522008AA0AE /* LaunchScreen.storyboard */; };
-		ADBF072C28FCC522008AA0AE /* DraggableViewSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBF072B28FCC522008AA0AE /* DraggableViewSampleTests.swift */; };
-		ADBF073628FCC522008AA0AE /* DraggableViewSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBF073528FCC522008AA0AE /* DraggableViewSampleUITests.swift */; };
-		ADBF073828FCC522008AA0AE /* DraggableViewSampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBF073728FCC522008AA0AE /* DraggableViewSampleUITestsLaunchTests.swift */; };
+		ADBF074528FCC5C2008AA0AE /* FilterPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBF074428FCC5C2008AA0AE /* FilterPresentationController.swift */; };
+		ADBF074828FCF56C008AA0AE /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = ADBF074728FCF56C008AA0AE /* SnapKit */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		ADBF072828FCC522008AA0AE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = ADBF070928FCC521008AA0AE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = ADBF071028FCC521008AA0AE;
-			remoteInfo = DraggableViewSample;
-		};
-		ADBF073228FCC522008AA0AE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = ADBF070928FCC521008AA0AE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = ADBF071028FCC521008AA0AE;
-			remoteInfo = DraggableViewSample;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		ADBF071128FCC521008AA0AE /* DraggableViewSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DraggableViewSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADBF071428FCC521008AA0AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADBF071628FCC521008AA0AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		ADBF071828FCC521008AA0AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		ADBF071B28FCC521008AA0AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ADBF071D28FCC522008AA0AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADBF072028FCC522008AA0AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADBF072228FCC522008AA0AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ADBF072728FCC522008AA0AE /* DraggableViewSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DraggableViewSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		ADBF072B28FCC522008AA0AE /* DraggableViewSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraggableViewSampleTests.swift; sourceTree = "<group>"; };
-		ADBF073128FCC522008AA0AE /* DraggableViewSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DraggableViewSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		ADBF073528FCC522008AA0AE /* DraggableViewSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraggableViewSampleUITests.swift; sourceTree = "<group>"; };
-		ADBF073728FCC522008AA0AE /* DraggableViewSampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraggableViewSampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ADBF074428FCC5C2008AA0AE /* FilterPresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterPresentationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,20 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ADBF072428FCC522008AA0AE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ADBF072E28FCC522008AA0AE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				ADBF074828FCF56C008AA0AE /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,8 +43,6 @@
 			isa = PBXGroup;
 			children = (
 				ADBF071328FCC521008AA0AE /* DraggableViewSample */,
-				ADBF072A28FCC522008AA0AE /* DraggableViewSampleTests */,
-				ADBF073428FCC522008AA0AE /* DraggableViewSampleUITests */,
 				ADBF071228FCC521008AA0AE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,8 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				ADBF071128FCC521008AA0AE /* DraggableViewSample.app */,
-				ADBF072728FCC522008AA0AE /* DraggableViewSampleTests.xctest */,
-				ADBF073128FCC522008AA0AE /* DraggableViewSampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,29 +61,12 @@
 				ADBF071428FCC521008AA0AE /* AppDelegate.swift */,
 				ADBF071628FCC521008AA0AE /* SceneDelegate.swift */,
 				ADBF071828FCC521008AA0AE /* ViewController.swift */,
-				ADBF071A28FCC521008AA0AE /* Main.storyboard */,
 				ADBF071D28FCC522008AA0AE /* Assets.xcassets */,
 				ADBF071F28FCC522008AA0AE /* LaunchScreen.storyboard */,
 				ADBF072228FCC522008AA0AE /* Info.plist */,
+				ADBF074428FCC5C2008AA0AE /* FilterPresentationController.swift */,
 			);
 			path = DraggableViewSample;
-			sourceTree = "<group>";
-		};
-		ADBF072A28FCC522008AA0AE /* DraggableViewSampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				ADBF072B28FCC522008AA0AE /* DraggableViewSampleTests.swift */,
-			);
-			path = DraggableViewSampleTests;
-			sourceTree = "<group>";
-		};
-		ADBF073428FCC522008AA0AE /* DraggableViewSampleUITests */ = {
-			isa = PBXGroup;
-			children = (
-				ADBF073528FCC522008AA0AE /* DraggableViewSampleUITests.swift */,
-				ADBF073728FCC522008AA0AE /* DraggableViewSampleUITestsLaunchTests.swift */,
-			);
-			path = DraggableViewSampleUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,45 +85,12 @@
 			dependencies = (
 			);
 			name = DraggableViewSample;
+			packageProductDependencies = (
+				ADBF074728FCF56C008AA0AE /* SnapKit */,
+			);
 			productName = DraggableViewSample;
 			productReference = ADBF071128FCC521008AA0AE /* DraggableViewSample.app */;
 			productType = "com.apple.product-type.application";
-		};
-		ADBF072628FCC522008AA0AE /* DraggableViewSampleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = ADBF073E28FCC522008AA0AE /* Build configuration list for PBXNativeTarget "DraggableViewSampleTests" */;
-			buildPhases = (
-				ADBF072328FCC522008AA0AE /* Sources */,
-				ADBF072428FCC522008AA0AE /* Frameworks */,
-				ADBF072528FCC522008AA0AE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				ADBF072928FCC522008AA0AE /* PBXTargetDependency */,
-			);
-			name = DraggableViewSampleTests;
-			productName = DraggableViewSampleTests;
-			productReference = ADBF072728FCC522008AA0AE /* DraggableViewSampleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		ADBF073028FCC522008AA0AE /* DraggableViewSampleUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = ADBF074128FCC522008AA0AE /* Build configuration list for PBXNativeTarget "DraggableViewSampleUITests" */;
-			buildPhases = (
-				ADBF072D28FCC522008AA0AE /* Sources */,
-				ADBF072E28FCC522008AA0AE /* Frameworks */,
-				ADBF072F28FCC522008AA0AE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				ADBF073328FCC522008AA0AE /* PBXTargetDependency */,
-			);
-			name = DraggableViewSampleUITests;
-			productName = DraggableViewSampleUITests;
-			productReference = ADBF073128FCC522008AA0AE /* DraggableViewSampleUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -196,14 +105,6 @@
 					ADBF071028FCC521008AA0AE = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
-					ADBF072628FCC522008AA0AE = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = ADBF071028FCC521008AA0AE;
-					};
-					ADBF073028FCC522008AA0AE = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = ADBF071028FCC521008AA0AE;
-					};
 				};
 			};
 			buildConfigurationList = ADBF070C28FCC521008AA0AE /* Build configuration list for PBXProject "DraggableViewSample" */;
@@ -215,13 +116,14 @@
 				Base,
 			);
 			mainGroup = ADBF070828FCC521008AA0AE;
+			packageReferences = (
+				ADBF074628FCF56C008AA0AE /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = ADBF071228FCC521008AA0AE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				ADBF071028FCC521008AA0AE /* DraggableViewSample */,
-				ADBF072628FCC522008AA0AE /* DraggableViewSampleTests */,
-				ADBF073028FCC522008AA0AE /* DraggableViewSampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,21 +135,6 @@
 			files = (
 				ADBF072128FCC522008AA0AE /* LaunchScreen.storyboard in Resources */,
 				ADBF071E28FCC522008AA0AE /* Assets.xcassets in Resources */,
-				ADBF071C28FCC521008AA0AE /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ADBF072528FCC522008AA0AE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ADBF072F28FCC522008AA0AE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,53 +145,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADBF074528FCC5C2008AA0AE /* FilterPresentationController.swift in Sources */,
 				ADBF071928FCC521008AA0AE /* ViewController.swift in Sources */,
 				ADBF071528FCC521008AA0AE /* AppDelegate.swift in Sources */,
 				ADBF071728FCC521008AA0AE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ADBF072328FCC522008AA0AE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ADBF072C28FCC522008AA0AE /* DraggableViewSampleTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ADBF072D28FCC522008AA0AE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ADBF073628FCC522008AA0AE /* DraggableViewSampleUITests.swift in Sources */,
-				ADBF073828FCC522008AA0AE /* DraggableViewSampleUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		ADBF072928FCC522008AA0AE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = ADBF071028FCC521008AA0AE /* DraggableViewSample */;
-			targetProxy = ADBF072828FCC522008AA0AE /* PBXContainerItemProxy */;
-		};
-		ADBF073328FCC522008AA0AE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = ADBF071028FCC521008AA0AE /* DraggableViewSample */;
-			targetProxy = ADBF073228FCC522008AA0AE /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		ADBF071A28FCC521008AA0AE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ADBF071B28FCC521008AA0AE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		ADBF071F28FCC522008AA0AE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -444,7 +294,7 @@
 				INFOPLIST_FILE = DraggableViewSample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -472,7 +322,7 @@
 				INFOPLIST_FILE = DraggableViewSample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -485,82 +335,6 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		ADBF073F28FCC522008AA0AE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = HDFLLXK789;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ycompany.DraggableViewSampleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DraggableViewSample.app/DraggableViewSample";
-			};
-			name = Debug;
-		};
-		ADBF074028FCC522008AA0AE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = HDFLLXK789;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ycompany.DraggableViewSampleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DraggableViewSample.app/DraggableViewSample";
-			};
-			name = Release;
-		};
-		ADBF074228FCC522008AA0AE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = HDFLLXK789;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ycompany.DraggableViewSampleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = DraggableViewSample;
-			};
-			name = Debug;
-		};
-		ADBF074328FCC522008AA0AE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = HDFLLXK789;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ycompany.DraggableViewSampleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = DraggableViewSample;
 			};
 			name = Release;
 		};
@@ -585,25 +359,26 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ADBF073E28FCC522008AA0AE /* Build configuration list for PBXNativeTarget "DraggableViewSampleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				ADBF073F28FCC522008AA0AE /* Debug */,
-				ADBF074028FCC522008AA0AE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		ADBF074128FCC522008AA0AE /* Build configuration list for PBXNativeTarget "DraggableViewSampleUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				ADBF074228FCC522008AA0AE /* Debug */,
-				ADBF074328FCC522008AA0AE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ADBF074628FCF56C008AA0AE /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ADBF074728FCF56C008AA0AE /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ADBF074628FCF56C008AA0AE /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = ADBF070928FCC521008AA0AE /* Project object */;
 }
