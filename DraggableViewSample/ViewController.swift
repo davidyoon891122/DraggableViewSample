@@ -15,6 +15,8 @@ class ViewController: UIViewController {
         button.setTitleColor(.label, for: .normal)
         button.setTitleColor(.label.withAlphaComponent(0.3), for: .highlighted)
         
+        button.addTarget(self, action: #selector(didTapOpenViewButton), for: .touchUpInside)
+        
         return button
     }()
     
@@ -23,8 +25,16 @@ class ViewController: UIViewController {
         setupViews()
         
     }
+}
 
-
+extension ViewController: UIViewControllerTransitioningDelegate {
+    func presentationController(
+        forPresented presented: UIViewController,
+        presenting: UIViewController?,
+        source: UIViewController
+    ) -> UIPresentationController? {
+        FilterPresentationController(presentedViewController: presented, presenting: presenting)
+    }
 }
 
 private extension ViewController {
@@ -41,6 +51,14 @@ private extension ViewController {
             $0.leading.equalToSuperview()
             $0.trailing.equalToSuperview()
         }
+    }
+    
+    @objc
+    func didTapOpenViewButton() {
+        let filterVC = FilterViewController()
+        filterVC.modalPresentationStyle = .custom
+        filterVC.transitioningDelegate = self
+        self.present(filterVC, animated: true, completion: nil)
     }
 }
 
